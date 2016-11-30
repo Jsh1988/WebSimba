@@ -1,0 +1,102 @@
+#block_body{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+}
+#block_body > h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #996600;
+}
+#block_avtorizaciya{
+    text-align: center;
+    width: 250px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #EEE8AA;
+    overflow: hidden;/* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis;/* Добавляем многоточие */
+}
+#block_log_pass {
+    text-align: center;
+    color: #996600;
+}
+
+#block_log_pass li{
+    margin-top: 3px;
+    padding: 3px;
+    margin-bottom: 3px;
+}
+
+.formas{
+    width: 210px;
+    color: #996600;
+    padding: 10px;
+    border: 1px solid #EEE8AA;
+}
+
+#remember{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.check{
+    color: #996600;
+    margin-left: 5px;
+    font-size: 10px;
+}
+.form-f3-title{
+    font: 20px Arial;
+    margin-bottom: 10px;
+    color: darkblue;
+}
+/**/
+.block_form_content{
+    margin: auto;
+    padding: 5px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #EEE8AA;
+
+}
+.block_form{
+    width: 343px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #EEE8AA;
+    float: left;
+}
+.block_content{
+    width: 70%;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+    border: 1px solid #EEE8AA;
+    float: right;
+}
+.block_table_content{
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #EEE8AA;
+}
+.block_ul{
+    text-align: center;
+    color: #996600;
+}
+.block_ul > h2{
+    color: darkblue;
+}
+.block_ul > li{
+    margin-top: 5px;
+    padding: 3px;
+}

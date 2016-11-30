@@ -1,0 +1,45 @@
+.body-block{
+    width: 500px;
+    height: 233px;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid #EEE8AA;
+    overflow: hidden;/* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis;/* Добавляем многоточие */
+
+}
+.submit{
+    width: auto;
+    height: 30px;
+    padding: 5px;
+    background: #996600;
+    color: #fff;
+    font: 10px Arial;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.submit:hover{
+    background: darkblue;
+}
+.link{
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    color: darkblue;
+    font: 10px Arial;
+    text-transform: uppercase;
+}
+.link:hover{
+    color: #996600;
+    font: 13px Arial;
+    border: 1px solid #EEE8AA;
+}

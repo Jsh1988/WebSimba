@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration PUBLIC "-//APACHE//DTD LOG4J 1.2//EN" "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xsi:schemaLocation="http://jakarta.apache.org/log4j/ ">
+
+    <!--Мой пакеты спринга-->
+    <logger name="com.websimba.spring">
+        <level value="info"/>
+    </logger>
+
+    <!--Стандартные пакеты спринга-->
+    <logger name="org.springframework.core">
+        <level value="info"/>
+    </logger>
+
+    <logger name="org.springframework.beans">
+        <level value="info"/>
+    </logger>
+
+    <logger name="org.springframework.context">
+        <level value="info"/>
+    </logger>
+
+    <logger name="org.springframework.web">
+        <level value="info"/>
+    </logger>
+    <!--Стандартные пакеты спринга-->
+
+    <!-- Root Logger -->
+    <!--будет выводиться в консоль-->
+    <root>
+        <priority value="warn"/>
+        <appender-ref ref="console"/>
+    </root>
+
+</log4j:configuration>
